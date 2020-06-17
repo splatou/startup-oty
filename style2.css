@@ -1,0 +1,63 @@
+	/*font-family: 'Playfair Display', serif;
+	font-family: 'Source Sans Pro', sans-serif;*/
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+	background: url(tropical-header.jpg) no-repeat center center fixed; 
+ 	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	font-size: 2.5em;
+	color: white;
+}
+
+.container {
+	width: 100%;
+	height: 500px;
+}
+
+.btn {
+	font-weight: 400;
+	border-radius: 300px;
+	font-size: 1em;
+	text-transform: uppercase;
+	padding: 1rem 2rem;
+	background-color: #dcf8ff;
+	border-color: #dcf8ff;
+	transition: 1s;
+}
+
+.btn:hover {
+	transform: scale(1.05);
+}
+
+hr {
+	border-color: #dcf8ff;
+	border-width: 2px;
+	max-width: 75px;
+}
+
+.buffer {
+	height: 30px;
+}
+
+.nav {
+	background-color: white;
+}
+
+
+/*.btn-me {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform: uppercase;
+	border-radius: 20px;
+	padding: 1rem 2rem;
+	}
+*/
